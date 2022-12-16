@@ -1,0 +1,30 @@
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.exe
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.deps.json
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.runtimeconfig.json
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.pdb
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.csproj.AssemblyReference.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.AssemblyInfoInputs.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.AssemblyInfo.cs
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.csproj.CoreCompileInputs.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\refint\ResolucionEjercicios.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.pdb
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.genruntimeconfig.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ref\ResolucionEjercicios.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.exe
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.deps.json
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.runtimeconfig.json
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\bin\Debug\net6.0\ResolucionEjercicios.pdb
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.csproj.AssemblyReference.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.AssemblyInfoInputs.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.AssemblyInfo.cs
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.csproj.CoreCompileInputs.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\refint\ResolucionEjercicios.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.pdb
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ResolucionEjercicios.genruntimeconfig.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\Clase 2\Ejercicios\ResolucionEjercicios\ResolucionEjercicios\obj\Debug\net6.0\ref\ResolucionEjercicios.dll

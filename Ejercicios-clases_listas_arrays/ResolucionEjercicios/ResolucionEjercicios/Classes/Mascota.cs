@@ -19,6 +19,7 @@ namespace ResolucionEjercicios.Classes
                 return energia;
             } 
         }
+        public string Tamanio { get; set; }
 
         public Mascota(string nombre, string tipo)
         {

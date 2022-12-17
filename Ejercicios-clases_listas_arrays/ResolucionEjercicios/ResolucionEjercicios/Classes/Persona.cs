@@ -11,6 +11,8 @@ namespace ResolucionEjercicios.Classes
         public string Nombre { get; set; }
         public string Apellido { get; set;}
         public DateTime FechaNacimiento { get; set; }
+        public Smartphone SmartPhone { get; set; }
+        public Mascota MascotaEnRegazo { get; set; }
 
         public Persona(string nombre, string apellido) 
         {

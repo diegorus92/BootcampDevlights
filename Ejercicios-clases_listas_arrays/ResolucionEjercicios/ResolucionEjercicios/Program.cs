@@ -1,6 +1,6 @@
 ﻿using ResolucionEjercicios.Classes;
 
-/*
+
 #region Ejercicio_1
 PrimeraGuia pg = new PrimeraGuia();
 
@@ -113,9 +113,9 @@ smart.silenciar();
 Console.WriteLine("Smartphone silenciado?: " + smart.Silencio);
 Console.WriteLine("////////////////////////////////////");
 #endregion
-*/
 
-#region Ejercicio_13
+
+#region Ejercicio_13_14
 Auto auto2 = new Auto("Fiat", "Palio Weekend", "1.4");
 auto2.Capacidad = 4;
 
@@ -146,4 +146,42 @@ auto2.obtenerLugarMascota();
 auto2.cambiarMascotaDeLugar();
 auto2.obtenerLugarMascota();
 
+auto2.encenderMotor(); //prueba de restriccion al bajar pasajeros mientras se esta en movimiento
+//auto2.acelerar();
+auto2.bajarPasajeros();
+
+//prueba de restriccion al bajar conductor mientras se está en movimiento y el motor encendido
+Console.WriteLine("Bajando conductor con velocidad: " + auto2.obtenerVelocidad());
+auto2.frenar();
+Console.WriteLine("Se frenó");
+Console.WriteLine("velocidad: "+auto2.obtenerVelocidad());
+auto2.encenderMotor(); //Se apaga si antes se encendió
+auto2.bajarConductor();
+Console.WriteLine("////////////////////////////////////");
+#endregion
+
+
+#region Ejercicio_15
+Estudiante estudiante1 = new Estudiante("Jaimito", "Villalba");
+
+estudiante1.agregarLibro(new Libro("Un libro1", "Autor1", 345, true));
+estudiante1.agregarLibro(new Libro("El Libro del Hacker", "Juanito Perez", 134, true));
+estudiante1.agregarLibro(new Libro("Vuelta al Mundo en 80 días", "Julio Verne", 256, true));
+
+estudiante1.agregarLibro(new Libro("Otro libro1", 35));
+estudiante1.agregarLibro(new Libro("Programacion Facilita", 225));
+
+Console.WriteLine("Lista de libros leídos");
+estudiante1.mostrarLibrosLeidos();
+Console.WriteLine("Total de páginas leídas = "+estudiante1.paginasTotalesLeidas()+"\n");
+
+Console.WriteLine("Libros sin leer aún = "+estudiante1.totalLibrosSinLeer());
+
+estudiante1.quitarLibroLeido("El Libro del Hacker");
+estudiante1.mostrarLibrosLeidos();
+Console.WriteLine("Total de páginas leídas = " + estudiante1.paginasTotalesLeidas() + "\n");
+
+estudiante1.quitarLibroNoLeido("programacion facilita");
+Console.WriteLine("Libros sin leer aún = " + estudiante1.totalLibrosSinLeer());
+Console.WriteLine("////////////////////////////////////");
 #endregion

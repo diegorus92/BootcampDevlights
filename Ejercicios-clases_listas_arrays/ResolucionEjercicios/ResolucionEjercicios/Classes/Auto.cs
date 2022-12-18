@@ -73,6 +73,9 @@ namespace ResolucionEjercicios.Classes
             pasajeros = new List<Persona>();
         }
 
+        /// <summary>
+        ///     Alterna el estado del motor entre encendido y apagado
+        /// </summary>
         public void encenderMotor()
         {
             if (Conductor != null && Conductor.obtenerEdad() >= 18)
@@ -117,7 +120,9 @@ namespace ResolucionEjercicios.Classes
             if (velocidad > 0)
             {
                 velocidadAnterior = velocidad;
-                velocidad -= (double)  (velocidad * desaceleracion) / 100;
+                velocidad -= (double) desaceleracion;
+                if (velocidad < 0)
+                    velocidad = 0;
             }
             else
                 Console.WriteLine("El coche está detenido");
@@ -203,6 +208,50 @@ namespace ResolucionEjercicios.Classes
             }
             else
                 Console.WriteLine("No se encontró mascota para cambiar de lugar");
+        }
+
+        private void bajarMascota()
+        {
+            for(int i = 0; i < pasajeros.Count; i++) 
+            {
+                if (pasajeros[i].MascotaEnRegazo!= null) 
+                {
+                    pasajeros[i].MascotaEnRegazo = null;
+                    mascota = null;
+                    Console.WriteLine("Se ha bajado la mascota");
+                    break;
+                }
+            }
+        }
+
+        public void bajarPasajeros()
+        {
+            if (velocidad <= 0)
+            {
+                if (mascota != null)
+                    bajarMascota();
+
+                pasajeros.Clear();
+                Console.WriteLine("Se han bajado todos los pasajeros");
+            }
+            else
+                Console.WriteLine("El coche debe estar detenido para bajar pasajeros");
+        }
+
+        public void bajarConductor()
+        {
+            if (velocidad <= 0)
+            {
+                if (!encendido)
+                {
+                    Conductor = null;
+                    Console.WriteLine("Se bajo el conductor");
+                }
+                else
+                    Console.WriteLine("El motor debe apagarse antes de bajar el conductor");
+            }
+            else
+                Console.WriteLine("El coche debe estar detenido para bajar conductor");
         }
     }
 }

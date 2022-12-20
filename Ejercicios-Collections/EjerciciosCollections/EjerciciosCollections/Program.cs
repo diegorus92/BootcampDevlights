@@ -312,9 +312,37 @@ for(int i = 0; i < semanas; i++)
 }
 
 Console.WriteLine("Temperatura mas alta del mes: "+tempMayor+" ("+diaAlta+")");
+Console.WriteLine("//////////////////////////////////\n");
 #endregion
 */
 
 #region Ejercicio_7
+int filas = 10;
+int columnas = 11;
+int[,] tablas = new int[filas, columnas];
+
+Console.WriteLine("Tablas del 0 al 9");
+//Carga de tabla
+for(int i = 0; i < filas; i++)
+{
+    for(int j = 0; j < columnas; j++)
+    {
+        tablas[i, j] = i * j;
+    }
+}
+
+//Muestra de tabla
+for (int i = 0; i < filas; i++)
+{
+    for (int j = 0; j < columnas; j++)
+    {
+        Console.Write(tablas[i, j] + "  ");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine("//////////////////////////////////\n");
+#endregion
+
+#region Ejercicio_8
 
 #endregion

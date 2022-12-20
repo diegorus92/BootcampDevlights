@@ -1,0 +1,30 @@
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.exe
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.deps.json
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.runtimeconfig.json
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.pdb
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.csproj.AssemblyReference.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.AssemblyInfoInputs.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.AssemblyInfo.cs
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.csproj.CoreCompileInputs.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\refint\EjerciciosCollections.dll
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.pdb
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.genruntimeconfig.cache
+C:\Diego\Cursos\Bootcamp2-Devlights\Clase 4\Ejercicios\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\ref\EjerciciosCollections.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.exe
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.deps.json
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.runtimeconfig.json
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\bin\Debug\net6.0\EjerciciosCollections.pdb
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.csproj.AssemblyReference.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.AssemblyInfoInputs.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.AssemblyInfo.cs
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.csproj.CoreCompileInputs.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\refint\EjerciciosCollections.dll
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.pdb
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\EjerciciosCollections.genruntimeconfig.cache
+D:\Diego\Cursos\Bootcamp Devlight\Clases\ClaseGit 2 & Repositorio\Ejercicios\BootcampDevlights\Ejercicios-Collections\EjerciciosCollections\EjerciciosCollections\obj\Debug\net6.0\ref\EjerciciosCollections.dll

@@ -1,5 +1,6 @@
-﻿/*
+﻿
 #region Ejercicio_1
+Console.WriteLine("/////////////////Ejercicio 1/////////////////\n");
 List<double> notasExamen = new List<double>() { 8.5, 7.6, 8, 3, 4, 5.7, 6, 8, 10, 9.5 };
 int contador = 0;
 double acumulador = 0;
@@ -16,6 +17,7 @@ Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
 #region Ejercicio_2
+Console.WriteLine("/////////////////Ejercicio 2/////////////////\n");
 int mayores = 0;
 int menores = 0;
 List<int> edades= new List<int>() { 30, 25, 34, 65, 12, 34, 22, 13, 16, 45, 65, 63, 23, 11, 15, 44, 67, 55, 43, 21 };
@@ -32,6 +34,7 @@ Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
 #region Ejercicio_3
+Console.WriteLine("/////////////////Ejercicio 3/////////////////\n");
 List<string> estudiantes = new List<string>() { "Alvaro", "Manu", "Octavio", "Romina", "Jose Maria", "Jessica", "Marta" };
 string largo = estudiantes[0];
 string corto = estudiantes[0];
@@ -49,6 +52,7 @@ Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
 #region Ejercicio_4
+Console.WriteLine("/////////////////Ejercicio 4/////////////////\n");
 List<string> listaSuper = new List<string>() { "huevos", "leche", "azucar" };
 string elemento = "";
 while (elemento != "fin")
@@ -80,6 +84,7 @@ Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
 #region Ejercicio_5
+Console.WriteLine("/////////////////Ejercicio 5/////////////////\n");
 int filasColumnas = 5;
 int contadorPosicion = 1;
 char[,] matriz1 = new char[filasColumnas,filasColumnas];
@@ -109,6 +114,7 @@ Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
 #region Ejercicio_6
+Console.WriteLine("/////////////////Ejercicio 6/////////////////\n");
 int semanas = 5;
 int dias = 7;
 int minimo = 7;
@@ -314,9 +320,10 @@ for(int i = 0; i < semanas; i++)
 Console.WriteLine("Temperatura mas alta del mes: "+tempMayor+" ("+diaAlta+")");
 Console.WriteLine("//////////////////////////////////\n");
 #endregion
-*/
+
 
 #region Ejercicio_7
+Console.WriteLine("/////////////////Ejercicio 7/////////////////\n");
 int filas = 10;
 int columnas = 11;
 int[,] tablas = new int[filas, columnas];
@@ -343,6 +350,158 @@ for (int i = 0; i < filas; i++)
 Console.WriteLine("//////////////////////////////////\n");
 #endregion
 
-#region Ejercicio_8
 
+#region Ejercicio_8
+Console.WriteLine("/////////////////Ejercicio 8/////////////////\n");
+int tamanio = 10;
+int maximoMinas = (tamanio/2);
+int minasEncontradas = 0;
+int intentosTotales = 3;
+int intentosRestantes = intentosTotales;
+int filaIngresada = 0;
+int columnaIngresada = 0;
+char lugarVacio = '*';
+char lugarMinado = 'X';
+char[,] campo = new char[tamanio,tamanio];
+char[,] copiaCampo = new char[tamanio, tamanio];
+
+//Carga de matriz
+static void minarCampo (char[,] matriz, int cantMinas, char mina)
+{
+    Random ubicacionMina = new Random();
+    int posicionMinaFila = 0;
+    int posicionMinaColumna = 0;
+
+    for (int i = 0; i < cantMinas; i++) //Carga solo de minas (también revela locacion)
+    {
+        posicionMinaFila = ubicacionMina.Next(matriz.GetLength(0));
+        posicionMinaColumna = ubicacionMina.Next(matriz.GetLength(1));
+
+        Console.WriteLine("PosMinaF=" + posicionMinaFila + " PosMinaC=" + posicionMinaColumna);//Revela posicion de minas en fila y columna
+                                                                                               //(comentar linea de ser necesario)
+        matriz[posicionMinaFila, posicionMinaColumna] = mina;
+    }
+}
+
+minarCampo(campo, maximoMinas, lugarMinado); //Carga solo de minas
+
+static void llenarCampo(char[,] matriz, char vacio, char mina)
+{
+    for (int i = 0; i < matriz.GetLength(0); i++)
+    {
+        for (int j = 0; j < matriz.GetLength(1); j++)
+        {
+            if (matriz[i, j] != mina)
+                matriz[i, j] = vacio;
+
+        }
+    }
+}
+
+llenarCampo(campo, lugarVacio, lugarMinado); //Carga lugares no minados
+
+static void copiarCampo(char[,] matrizOriginal, char[,]matrizDestino)
+{
+    if (matrizOriginal.GetLength(0) == matrizDestino.GetLength(0) && matrizOriginal.GetLength(1) == matrizDestino.GetLength(1))
+    {
+        for (int i = 0; i < matrizOriginal.GetLength(0); i++)
+        {
+            for (int j = 0; j < matrizOriginal.GetLength(1); j++)
+            {
+                matrizDestino[i, j] = matrizOriginal[i, j];
+            }
+        }
+    }
+    else
+        Console.WriteLine("No se puede copiar. Tamaños entre matrices distintos");
+}
+
+copiarCampo(campo, copiaCampo);//Copio el campo original 
+
+
+//Muestra campo
+static void revelarCampo(char[,] matriz)
+{
+    for (int i = 0; i < matriz.GetLength(0); i++)
+    {
+        for (int j = 0; j < matriz.GetLength(1); j++)
+        {
+            Console.Write(matriz[i, j] + "  ");
+        }
+        Console.WriteLine();
+    }
+}
+
+revelarCampo(campo); //Comentar esta línea para no revelar el campo al principio del juego
+
+
+
+////////////////Bucle del juego///////////////////////////////////////
+Console.WriteLine("Comienza Buscaminas...");
+do
+{
+    //Muestra puntuaciones en cada iteracion
+    Console.WriteLine("Minas encontradas: "+minasEncontradas);
+    Console.WriteLine("Intentos restantes: "+intentosRestantes+"\n\n");
+
+    //Ingresa fila
+    Console.Write("Ingrese nro de FILA donde cree que hay una mina (de 0 a "+(tamanio-1)+"): ");
+    filaIngresada = int.Parse(Console.ReadLine());
+    while (filaIngresada < 0 || filaIngresada >= tamanio)
+    {
+        Console.WriteLine("\nFila ingresada fuera de rango. La fila va de 0 a " + (tamanio - 1));
+        Console.Write("Ingrese nro de FILA donde cree que hay una mina (de 0 a " + (tamanio - 1) + "): ");
+        filaIngresada = int.Parse(Console.ReadLine());
+    }
+
+
+    //Ingresa columna
+    Console.Write("Ingrese nro de COLUMNA donde cree que hay una mina (de 0 a " + (tamanio - 1) + "): ");
+    columnaIngresada = int.Parse(Console.ReadLine());
+    while (columnaIngresada < 0 || columnaIngresada >= tamanio)
+    {
+        Console.WriteLine("\nColumna ingresada fuera de rango. La columna va de 0 a " + (tamanio - 1));
+        Console.Write("Ingrese nro de COLUMNA donde cree que hay una mina (de 0 a " + (tamanio - 1) + "): ");
+        columnaIngresada = int.Parse(Console.ReadLine());
+    }
+
+    if (campo[filaIngresada, columnaIngresada] == lugarMinado)
+    {
+        Console.WriteLine("Encontraste una mina!!!");
+        minasEncontradas++;
+        campo[filaIngresada, columnaIngresada] = lugarVacio; //para evitar trampas ;)
+    }
+    else
+    {
+        Console.WriteLine("Lugar vació :/");
+        intentosRestantes--;
+    }
+
+} while (intentosRestantes > 0 && minasEncontradas < maximoMinas);
+
+//Condicion/es de derrota
+if (intentosRestantes == 0 && minasEncontradas == 0)
+{
+    Console.WriteLine("\n\nNo encontraste ninguna mina :(");
+    Console.WriteLine("Minas encontradas: " + minasEncontradas);
+    Console.WriteLine("Intentos restantes: " + intentosRestantes + "\n\n");
+}
+
+if(intentosRestantes == 0 && minasEncontradas > 0)
+{
+    Console.WriteLine("\n\nEncontraste algunas minas, nada mal :|");
+    Console.WriteLine("Minas encontradas: " + minasEncontradas);
+    Console.WriteLine("Intentos restantes: " + intentosRestantes + "\n\n");
+}
+
+//Condicion de victoria
+if(intentosRestantes > 0 && minasEncontradas == maximoMinas)
+{
+    Console.WriteLine("\n\nFelicidades! encontraste todas las minas :D");
+    Console.WriteLine("Minas encontradas: " + minasEncontradas);
+    Console.WriteLine("Intentos restantes: " + intentosRestantes + "\n\n");
+}
+
+revelarCampo(copiaCampo);
+Console.WriteLine("//////////////////////////////////\n");
 #endregion
